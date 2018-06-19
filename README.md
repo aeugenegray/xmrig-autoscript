@@ -1,4 +1,4 @@
-## XMRig - Auto Install Script Centos & Ubunu - Cryptonote
+## XMRig - Auto Install Script Centos & Ubuntu - Cryptonote
 
 ### Centos Code
 sudo yum -y update
