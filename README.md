@@ -5,34 +5,34 @@ sudo yum -y update
 
 sudo yum install -y centos-release-scl epel-release tmux git expect
 
-git clone https://github.com/aeugenegray/cpuminer-multi-autoscript.git
+git clone https://github.com/aeugenegray/xmrig-autoscript.git
 
-cd cpuminer-multi-autoscript
+cd xmrig-autoscript
 
-chmod +x cpumulti-centos-1.sh
+chmod +x xmrig-centos-1.sh
 
 chmod +x expect-2.sh
 
-./cpumulti-centos-1.sh
+./xmrig-centos-1.sh
 
 ### Ubuntu Code
 sudo apt-get -y update
 
 sudo apt-get install -y centos-release-scl epel-release tmux git expect
 
-git clone https://github.com/aeugenegray/cpuminer-multi-autoscript.git
+git clone https://github.com/aeugenegray/xmrig-autoscript.git
 
-cd cpuminer-multi-autoscript
+cd xmrig-autoscript
 
-chmod +x cpumulti-ubuntu-1.sh
+chmod +x xmrig-ubuntu-1.sh
 
 chmod +x expect-2.sh
 
-./cpumulti-ubuntu-1.sh
+./xmrig-ubuntu-1.sh
 
 ### Inline
 
-sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/cpuminer-multi-autoscript.git && cd cpuminer-multi-autoscript && chmod +x cpumulti-centos-1.sh && chmod +x expect-2.sh && ./cpumulti-centos-1.sh
+sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && chmod +x xmrig-centos-1.sh && chmod +x expect-2.sh && ./xmrig-centos-1.sh
 
 
 ### Stay Thirsy My Friends
