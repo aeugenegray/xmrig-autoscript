@@ -6,5 +6,7 @@ mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr
 make
 mv ~/xmrig-autoscript/expect-2.sh ~/xmrig-autoscript/xmrig/build
 expect ./expect-2.sh
+tmux
+trap "" 15
 ./xmrig --algo=cryptonight-lite --variant 1 -o spot.mineallcrypto.com:7586 -u AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd -p x -k --donate-level=1
 
