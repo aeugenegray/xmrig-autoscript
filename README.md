@@ -1,4 +1,5 @@
 ## XMRig - Auto Install Script Centos & Ubuntu - Cryptonote
+1st 60 Seconds of mining are donated for development purposes. No other donations.
 
 ### Centos Code
 sudo yum -y update
