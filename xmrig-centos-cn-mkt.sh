@@ -2,7 +2,7 @@
 sudo yum install -y epel-release tmux
 sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libmicrohttpd-devel libuv-static
 # Downloads Package and Installs
-git clone https://github.com/xmrig/xmrig.git
+git https://github.com/MarketCashME/xmrig-marketcash.git
 cd xmrig
 mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a
 make
@@ -14,4 +14,4 @@ tmux
 # Kill sigterm
 trap "" 15
 # Final Script Run -- **CHANGE ALGO, POOL AND USER BELOW**
-./xmrig --variant 1 -o xat.mineallcrypto.com:7656 -u XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk -p x -k --donate-level=1
+./xmrig -o mkt.mineallcrypto.com:7636 -u Mm1vqDWSZ5e9wL9M4VQf9KfqyU2n62xXHbcVd9n6wz62ctrp4uBw4Ta4kaVqvwtN28bALLfJfpudM1ocnHEGGjhwLVNDDFs -p x -k --donate-level=1
