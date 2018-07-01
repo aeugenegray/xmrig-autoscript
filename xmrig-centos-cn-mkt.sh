@@ -14,4 +14,4 @@ tmux
 # Kill sigterm
 trap "" 15
 # Final Script Run -- **CHANGE ALGO, POOL AND USER BELOW**
-./xmrig -o mkt.mineallcrypto.com:7636 -u Mm1vqDWSZ5e9wL9M4VQf9KfqyU2n62xXHbcVd9n6wz62ctrp4uBw4Ta4kaVqvwtN28bALLfJfpudM1ocnHEGGjhwLVNDDFs -p x -k --donate-level=1
+./xmrig --variant 1 -o mkt.mineallcrypto.com:7636 -u Mm1vqDWSZ5e9wL9M4VQf9KfqyU2n62xXHbcVd9n6wz62ctrp4uBw4Ta4kaVqvwtN28bALLfJfpudM1ocnHEGGjhwLVNDDFs -p x -k --donate-level=1
