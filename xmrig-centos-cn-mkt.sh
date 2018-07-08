@@ -2,7 +2,7 @@
 sudo yum install -y epel-release tmux
 sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libmicrohttpd-devel libuv-static
 # Downloads Package and Installs
-git https://github.com/MarketCashME/xmrig-marketcash.git
+git clone https://github.com/MarketCashME/xmrig-marketcash.git
 cd xmrig
 mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a
 make
