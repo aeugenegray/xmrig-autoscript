@@ -1,26 +1,10 @@
 ## XMRig - Auto Install Script Centos & Ubuntu - Cryptonote
 
+*****************************************************************************************************************************
+
 **Entries for current algos, just replace the pool address & port then your wallet address and you're AG.**
 
 *****************************************************************************************************************************
-
-#### Centos
-sudo yum -y update<br>
-sudo yum install -y centos-release-scl epel-release tmux git<br>
-git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --algo=cryptonight-lite --variant 1 -o **spot.mineallcrypto.com:7585** -u **AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
-echo '\n' >> xmrig-centos-1.sh<br>
-chmod +x xmrig-centos-1.sh<br>
-chmod +x expect-2.sh<br>
-./xmrig-centos-1.sh<br>
-
-#### Ubuntu
-sudo yum -y update<br>
-sudo yum install -y centos-release-scl epel-release tmux git<br>
-git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --algo=cryptonight-lite --variant 1 -o *spot.mineallcrypto.com:7585* -u *AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd* -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
-echo '\n' >> xmrig-centos-1.sh<br>
-chmod +x xmrig-centos-1.sh<br>
-chmod +x expect-2.sh<br>
-./xmrig-centos-1.sh<br>
 
 ### Cryptonight Lite V7
 
@@ -42,22 +26,29 @@ chmod +x xmrig-centos-1.sh<br>
 chmod +x expect-2.sh<br>
 ./xmrig-centos-1.sh<br>
 
+*****************************************************************************************************************************
 
-### Ubuntu Code
-sudo apt-get -y update
+### Cryptonight Lite V7
 
-sudo apt-get install -y centos-release-scl epel-release tmux git expect
+#### Centos
+sudo yum -y update<br>
+sudo yum install -y centos-release-scl epel-release tmux git<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --algo=cryptonight-lite --variant 1 -o **spot.mineallcrypto.com:7585** -u **AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+echo '\n' >> xmrig-centos-1.sh<br>
+chmod +x xmrig-centos-1.sh<br>
+chmod +x expect-2.sh<br>
+./xmrig-centos-1.sh<br>
 
-git clone https://github.com/aeugenegray/xmrig-autoscript.git
+#### Ubuntu
+sudo yum -y update<br>
+sudo yum install -y centos-release-scl epel-release tmux git<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --algo=cryptonight-lite --variant 1 -o *spot.mineallcrypto.com:7585* -u *AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd* -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+echo '\n' >> xmrig-centos-1.sh<br>
+chmod +x xmrig-centos-1.sh<br>
+chmod +x expect-2.sh<br>
+./xmrig-centos-1.sh<br>
 
-cd xmrig-autoscript
-
-chmod +x xmrig-ubuntu-1.sh
-
-chmod +x expect-2.sh
-
-./xmrig-ubuntu-1.sh
-
+*****************************************************************************************************************************
 
 **1st 120 Seconds of mining are donated for development purposes.**
 
