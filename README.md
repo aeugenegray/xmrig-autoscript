@@ -2,7 +2,9 @@
 
 **Entries for current algos, just replace the pool address & port then your wallet address (in bold below) and you are GTG.**
 
-### CN-Lite-V7 Centos
+### Cryptonight Lite V7
+
+#### Centos
 sudo yum -y update<br>
 sudo yum install -y centos-release-scl epel-release tmux git<br>
 git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --algo=cryptonight-lite --variant 1 -o **spot.mineallcrypto.com:7585** -u **AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
@@ -11,7 +13,7 @@ chmod +x xmrig-centos-1.sh<br>
 chmod +x expect-2.sh<br>
 ./xmrig-centos-1.sh<br>
 
-### CN-Lite-V7 ubuntu
+#### Ubuntu
 sudo yum -y update<br>
 sudo yum install -y centos-release-scl epel-release tmux git<br>
 git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --algo=cryptonight-lite --variant 1 -o *spot.mineallcrypto.com:7585* -u *AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd* -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
@@ -41,10 +43,10 @@ chmod +x expect-2.sh
 sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && chmod +x xmrig-centos-1.sh && chmod +x expect-2.sh && ./xmrig-centos-1.sh
 
 
-*1st 60 Seconds of mining are donated for development purposes. No other donations.
+**1st 120 Seconds of mining are donated for development purposes. No other donations.**
 
 
-### Stay Thirsy My Friends
+#### Stay Thirsy My Friends
 BTC: 38NQuDc5NLWLo7oTygn1y1ipWhLYNWHhai
 
 LTC: MAjxfmJ1zUZd6mCxJ4YpuD6UDCV9TRExbZ
