@@ -6,7 +6,7 @@
 
 *****************************************************************************************************************************
 
-### Cryptonight V7
+### Cryptonight
 
 #### Centos
 sudo yum -y update<br>
@@ -70,7 +70,73 @@ chmod +x xmrig-centos-1.sh<br>
 chmod +x expect-2.sh<br>
 ./xmrig-centos-1.sh<br>
 
-*****************************************************************************************************************************
+****************************************************************************************************************************
+
+### Cryptonight Heavy
+
+#### Centos
+sudo yum -y update<br>
+sudo yum install -y centos-release-scl epel-release tmux git<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --variant 1 -o **xat.mineallcrypto.com:7656** -u **XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+echo '\n' >> xmrig-centos-1.sh<br>
+chmod +x xmrig-centos-1.sh<br>
+chmod +x expect-2.sh<br>
+./xmrig-centos-1.sh<br>
+
+#### Ubuntu
+sudo yum -y update<br>
+sudo yum install -y centos-release-scl epel-release tmux git<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --variant 1 -o **xat.mineallcrypto.com:7656** -u **XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+echo '\n' >> xmrig-centos-1.sh<br>
+chmod +x xmrig-centos-1.sh<br>
+chmod +x expect-2.sh<br>
+./xmrig-centos-1.sh<br>
+
+****************************************************************************************************************************
+
+### Cryptonight Alloy
+
+#### Centos
+sudo yum -y update<br>
+sudo yum install -y centos-release-scl epel-release tmux git<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --variant 1 -o **xat.mineallcrypto.com:7656** -u **XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+echo '\n' >> xmrig-centos-1.sh<br>
+chmod +x xmrig-centos-1.sh<br>
+chmod +x expect-2.sh<br>
+./xmrig-centos-1.sh<br>
+
+#### Ubuntu
+sudo yum -y update<br>
+sudo yum install -y centos-release-scl epel-release tmux git<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --variant 1 -o **xat.mineallcrypto.com:7656** -u **XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+echo '\n' >> xmrig-centos-1.sh<br>
+chmod +x xmrig-centos-1.sh<br>
+chmod +x expect-2.sh<br>
+./xmrig-centos-1.sh<br>
+
+****************************************************************************************************************************
+
+### Cryptonight Market Cash
+
+#### Centos
+sudo yum -y update<br>
+sudo yum install -y centos-release-scl epel-release tmux git<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --variant 1 -o **xat.mineallcrypto.com:7656** -u **XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+echo '\n' >> xmrig-centos-1.sh<br>
+chmod +x xmrig-centos-1.sh<br>
+chmod +x expect-2.sh<br>
+./xmrig-centos-1.sh<br>
+
+#### Ubuntu
+sudo yum -y update<br>
+sudo yum install -y centos-release-scl epel-release tmux git<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --variant 1 -o **xat.mineallcrypto.com:7656** -u **XA4tS3ffGZR6AqiygDZptz8nc93Jm6Xsr9gwBya6REyH6eC4FTz4kQRHiLXt7gtUcAB35k1Bodvnf6b7C4FP7HM533bn1w9fk** -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+echo '\n' >> xmrig-centos-1.sh<br>
+chmod +x xmrig-centos-1.sh<br>
+chmod +x expect-2.sh<br>
+./xmrig-centos-1.sh<br>
+
+****************************************************************************************************************************
 
 **1st 120 Seconds of mining are donated for development purposes.**
 
