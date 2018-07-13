@@ -1,6 +1,6 @@
 ## XMRig - Auto Install Script Centos & Ubuntu - Cryptonote
 
-**Entries for current algos, just replace the pool address & port then your wallet address (in bold below) and you're AG.**
+**Entries for current algos, just replace the pool address & port then your wallet address and you're AG.**
 
 ### Cryptonight Lite V7
 
