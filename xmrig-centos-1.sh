@@ -1,5 +1,5 @@
 # Installs Dependencies 
-sudo yum install -y epel-release tmuxexpect
+sudo yum install -y epel-release tmux expect
 sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libmicrohttpd-devel libuv-static
 # Downloads Package and Installs
 git clone https://github.com/xmrig/xmrig.git
