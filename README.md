@@ -3,7 +3,7 @@
 ### CN-Lite-V7 Centos
 sudo yum -y update<br>
 sudo yum install -y centos-release-scl epel-release tmux git<br>
-git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --algo=cryptonight-lite --variant 1 -o <span style="color:red">spot.mineallcrypto.com:7585</span> -u <span style="color:red">AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd</span> -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
+git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && echo './xmrig --algo=cryptonight-lite --variant 1 -o <span style="color:blue">spot.mineallcrypto.com:7585</span> -u <span style="color:red">AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd</span> -p x -k --donate-level=1' >> xmrig-centos-1.sh<br>
 echo '\n' >> xmrig-centos-1.sh<br>
 chmod +x xmrig-centos-1.sh<br>
 chmod +x expect-2.sh<br>
