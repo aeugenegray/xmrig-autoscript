@@ -14,5 +14,3 @@ tmux
 # Kill sigterm
 trap "" 15
 # Final Script Run -- **CHANGE ALGO, POOL AND USER BELOW**
-./xmrig --algo=cryptonight-lite --variant 1 -o spot.mineallcrypto.com:7585 -u AYrUmTkCNaTcKu3YyTqnwARJ5rpFwn1rodFsKji2hgcn11iGWXgRQ12fFLWE3DCL3Mg2QCfNY5pLcDLm6LVYTLwdF79gVUd -p x -k --donate-level=1
-
