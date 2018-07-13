@@ -38,12 +38,8 @@ chmod +x expect-2.sh
 
 ./xmrig-ubuntu-1.sh
 
-### Inline
 
-sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git expect && git clone https://github.com/aeugenegray/xmrig-autoscript.git && cd xmrig-autoscript && chmod +x xmrig-centos-1.sh && chmod +x expect-2.sh && ./xmrig-centos-1.sh
-
-
-**1st 120 Seconds of mining are donated for development purposes. No other donations.**
+**1st 120 Seconds of mining are donated for development purposes.**
 
 
 #### Stay Thirsy My Friends
