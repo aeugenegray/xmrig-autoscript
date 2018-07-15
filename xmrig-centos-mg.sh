@@ -6,7 +6,7 @@ cd xmrig
 mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 # Moves and Runs Expect Script. 
-mv ~/xmrig-autoscript/expect-2.sh ~/xmrig-autoscript/xmrig/build
+mv ~/xmrig-autoscript/expect-mg.sh ~/xmrig-autoscript/xmrig/build
 # Kill sigterm
 trap "" 15
 expect ./expect-mg.sh
