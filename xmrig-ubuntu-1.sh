@@ -1,9 +1,11 @@
 sudo apt-get -y update
 sudo apt-get install -y epel-release tmux
-sudo apt-get install -y git make cmake gcc gcc-c++ libstdc++-static libmicrohttpd-devel libuv-static
+sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig
-mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a
+mkdir build
+cd build
+cmake ..
 make
 mv ~/xmrig-autoscript/expect-2.sh ~/xmrig-autoscript/xmrig/build
 expect ./expect-2.sh
