@@ -10,7 +10,7 @@ make
 mv ~/xmrig-autoscript/expect-2.sh ~/xmrig-autoscript/xmrig/build
 expect ./expect-2.sh
 # Runs tmux to keep a session open even after closing
-tmux
+screen
 # Kill sigterm
 trap "" 15
 # Final Script Run -- **CHANGE ALGO, POOL AND USER BELOW**
