@@ -13,6 +13,45 @@ expect ./expect-mg.sh
 expect ./expect-mg.sh
 expect ./expect-mg.sh
 expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
+expect ./expect-mg.sh
 tmux
 # Kill sigterm
 trap "" 15
