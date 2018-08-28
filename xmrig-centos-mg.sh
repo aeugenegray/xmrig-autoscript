@@ -10,48 +10,6 @@ make
 mv ~/xmrig-autoscript/expect-mg.sh ~/xmrig-autoscript/xmrig/build
 expect ./expect-mg.sh
 # Runs tmux to keep a session open even after closing
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
-expect ./expect-mg.sh
 tmux
 # Kill sigterm
 trap "" 15
