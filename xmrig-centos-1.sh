@@ -13,4 +13,7 @@ expect ./expect-2.sh
 tmux
 # Kill sigterm
 trap "" 15
+trap '' SIGINT
+trap ''  SIGQUIT
+trap '' SIGTSTP
 # Final Script Run -- **CHANGE ALGO, POOL AND USER BELOW**
