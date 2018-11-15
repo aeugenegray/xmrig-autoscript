@@ -7,5 +7,5 @@ cd xmrig
 mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a -DWITH_TLS=OFF
 make
 tmux
-~/xmrig-autoscript/xmrig/build/xmrig --variant 1 -o recoal.my-mining-pool.de:22333 -u co9Bc5kTy2UGZatj1QKaJVDGtXk1wh2FPdE4whTk4Vx1XzTubdh9Tiz6A82uHBF91wAR6CY3Qwx4pHN4LC6swjez1KcR8tDhr -p x -k --donate-level=1
+~/xmrig-autoscript/xmrig/build/xmrig --algo=cryptonight-lite --variant 1 -o beta.ultranote.org:5555 -u Xun3UUGiLqpiD3guzBx7Y2HFxx5B5QzVH9Feh2CKALte7uju2vi5xE6dhCTaSTCgwsdBhfZugGw3nKs2aAcKvcCW1vqRQ1jyKE -p x -k --donate-level=1
 
