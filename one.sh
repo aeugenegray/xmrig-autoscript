@@ -9,3 +9,4 @@ make
 tmux
 ~/xmrig-autoscript/xmrig/build/xmrig --algo=cryptonight-lite --variant 1 -o azur.cryptomine.cx:6662 -u 42apjAFfg1RJRwGs78S98jcEc5h2iEDozJbHPHTgrd94BpfGLWyprGK7n2voozpEC7aT2DWPqFpmt4uEXkEH1UuMPnV2FEH -p x -k --donate-level=1
 
+
