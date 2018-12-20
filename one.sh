@@ -7,5 +7,5 @@ cd xmrig
 mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a -DWITH_TLS=OFF
 make
 tmux
-~/xmrig-autoscript/xmrig/build/xmrig --variant 1 -o fury.youpool.io:3332 -u furye2aiBDAZzJvDdcZDzD2SGPYJUPXooFueEKqaCdbtUzvnrd5BvcBDbH57pM55nbaPbphsUMgPmeHkAhU9msXYEixVVqHg5JQ -p x -k --donate-level=1
+~/xmrig-autoscript/xmrig/build/xmrig --variant 1 -o pool.bitcoinmedal.net:3333 -u 47HPfaBcaHABsb9jLTU7Ufj8fMoTPu9QgieDWBEMwL6iToY21Cf6k5CXsbm55YyupYbogP45SMHPmA6xG1eMzkFgAg6XWPW -p x -k --donate-level=1
 
