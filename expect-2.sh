@@ -1,4 +1,4 @@
-spawn ./xmrig --algo=cryptonight-lite --variant 1 -o lch-us.walpool.com:5088 -u cashFZEviaRfxNFBkbcZm45emNqk26Nb942Fn6NnrCAwRin8aEQTuAceKyTxtsWkumYWphYMK3kSkDhA6APysyMe6HFMkjDFhP -p x -k --donate-level=1 -t 1
+spawn ./xmrig -a cn --variant msr -o conceal.my-mining-pool.de:35333 -u ccx7VEFxwND7AgXPab4DFz5NZuXNxRXeVbaFaAgwvEMqPWB46Ha6cMo3sARPjdvJjXZr6i5aAifTQjdGxS5ryeEX8rLxrH9RQc -p x -k --donate-level=1
 expect -re "#\r"
 send -- "0\r"
 set timeout 2
