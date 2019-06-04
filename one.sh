@@ -7,5 +7,4 @@ cd xmrig
 mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a -DWITH_TLS=OFF
 make
 screen
-./xmrig -a cn --variant msr -o conceal.my-mining-pool.de:35333 -u ccx7VEFxwND7AgXPab4DFz5NZuXNxRXeVbaFaAgwvEMqPWB46Ha6cMo3sARPjdvJjXZr6i5aAifTQjdGxS5ryeEX8rLxrH9RQc -p x -k --donate-level=1
-
+./xmrig --o pyrexcoin.my-mining-pool.de:32333 -u PYX1UA6UoxqKMUB7eS97LUE9WdAPxZbQRCYVsZtRK8bvQ3Z226Tdc2a3aBoTc5wDjB94nwbdHuDeM2DcDbp1M2U38ye7KTMmdD -p x -k --donate-level=1
