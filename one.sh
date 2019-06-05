@@ -8,9 +8,5 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a -DWITH_TLS=OFF
 make
 screen
-trap "" 15
-trap '' SIGINT
-trap ''  SIGQUIT
-trap '' SIGTSTP
 ./xmrig-notls --algo=cryptonight-heavy -o ombre.my-mining-pool.de:34333 -u cashS4yc1S7abheKgMJbZi1TfVLVg1PsMBpaSkyHqecaN6bGg4ZpoFxWkwXU5Wb7bKRdvCfQ8G43CbbaGPz4x2gQ9wWFExpvp1 -p x -k --donate-level=1
 
