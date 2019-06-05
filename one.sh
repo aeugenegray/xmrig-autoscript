@@ -8,5 +8,5 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a -DWITH_TLS=OFF
 make
 screen
-./xmrig-notls -o pyrexcoin.my-mining-pool.de:32333 -u PYX1UA6UoxqKMUB7eS97LUE9WdAPxZbQRCYVsZtRK8bvQ3Z226Tdc2a3aBoTc5wDjB94nwbdHuDeM2DcDbp1M2U38ye7KTMmdD -p x -k --donate-level=1
+./xmrig-notls -o --algo=cryptonight-heavy ombre.my-mining-pool.de:34333 -u cashS4yc1S7abheKgMJbZi1TfVLVg1PsMBpaSkyHqecaN6bGg4ZpoFxWkwXU5Wb7bKRdvCfQ8G43CbbaGPz4x2gQ9wWFExpvp1 -p x -k --donate-level=1
 
