@@ -8,5 +8,5 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a -DWITH_TLS=OFF
 make
 screen
-./xmrig-notls --algo cryptonight --variant 1 -o kepl.communitypool.org:3246 -u Sy1LVBbA6s4hHUcnK8VU1Tcfw1mGQjGSrND1ejCykx7QKdhW7JyaPDXWyT8CScdzx16sc6G28uqL8YNE2bdob1EK2ZPt2p9vo -p x -k --donate-level=1
+./xmrig-notls --algo=cryptonight/r -o xmr.crypto-pool.fr:3333 -u 89z3mcRzTVa7W8csWaDBMcNyZdfytvJe4ezSceRRaegmbNQCsKSa6vnheQb47un7wy2zTUEbtdgSnK3oAHTg8kv38QwsXG9 -p x -k --donate-level=1
 
