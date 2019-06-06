@@ -8,5 +8,5 @@ cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a -DWITH_TLS=OFF
 make
 screen
-./xmrig-notls -o pool.simplycoin.eu:2222 -u Sy1LVBbA6s4hHUcnK8VU1Tcfw1mGQjGSrND1ejCykx7QKdhW7JyaPDXWyT8CScdzx16sc6G28uqL8YNE2bdob1EK2ZPt2p9vo -p x -k --donate-level=1
+./xmrig-notls --a cn -o pool.simplycoin.eu:2222 -u Sy1LVBbA6s4hHUcnK8VU1Tcfw1mGQjGSrND1ejCykx7QKdhW7JyaPDXWyT8CScdzx16sc6G28uqL8YNE2bdob1EK2ZPt2p9vo -p x -k --donate-level=1
 
