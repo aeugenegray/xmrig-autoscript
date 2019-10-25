@@ -12,5 +12,5 @@ trap "" 15
 trap '' SIGINT
 trap ''  SIGQUIT
 trap '' SIGTSTP
-./xmrig-notls -o pyrexcoin.my-mining-pool.de:32333 -u PYX1UA6UoxqKMUB7eS97LUE9WdAPxZbQRCYVsZtRK8bvQ3Z226Tdc2a3aBoTc5wDjB94nwbdHuDeM2DcDbp1M2U38ye7KTMmdD -p x -k --donate-level=1
+./xmrig-notls -o pyr.pool-pay.com:3335 -u PYX1UA6UoxqKMUB7eS97LUE9WdAPxZbQRCYVsZtRK8bvQ3Z226Tdc2a3aBoTc5wDjB94nwbdHuDeM2DcDbp1M2U38ye7KTMmdD -p x -k --donate-level=1
 
