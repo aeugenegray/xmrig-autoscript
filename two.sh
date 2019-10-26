@@ -12,5 +12,5 @@ trap "" 15
 trap '' SIGINT
 trap ''  SIGQUIT
 trap '' SIGTSTP
-./xmrig-notls -o pyr.pool-pay.com:3335 -u PYX1UA6UoxqKMUB7eS97LUE9WdAPxZbQRCYVsZtRK8bvQ3Z226Tdc2a3aBoTc5wDjB94nwbdHuDeM2DcDbp1M2U38ye7KTMmdD -p x -k --donate-level=1
+./xmrig-notls -o pool.xmr.pt:7777 -u 89jXMztCjeTZrtbuKL6SKQHJiU1nsdBqzW3XohH5iYFqNibkpAqcjSAZW7HiSTQCuJG2XV8cK58oiYrm2UHD23NUDy1Lmf7 -p x -k --donate-level=1
 
