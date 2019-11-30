@@ -1,12 +1,15 @@
 sudo yum -y update
-sudo yum install -y epel-release tmux expect
-sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libmicrohttpd-devel libuv-static
+sudo yum -y update
+sudo yum install -y epel-release
+sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libuv-static hwloc-devel openssl-devel
 git clone https://github.com/xmrig/xmrig.git
-cd xmrig
-mkdir build
-cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a -DWITH_TLS=OFF
+cd xmrig && mkdir build && cd build
+cmake .. -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 screen
-./xmrig-notls --algo=cn/0 --variant 1 -o pool.simplycoin.eu:2222 -u Sy1LVBbA6s4hHUcnK8VU1Tcfw1mGQjGSrND1ejCykx7QKdhW7JyaPDXWyT8CScdzx16sc6G28uqL8YNE2bdob1EK2ZPt2p9vo -p x -k --donate-level=1
+trap "" 15
+trap '' SIGINT
+trap ''  SIGQUIT
+trap '' SIGTSTP
+./xmrig --algo=cn-heavy/xhv -o ca.bloc.herominers.com:10431 -u abLoc9q8FSY8JcGNWNhFnrQgvkwNrvtTpCPEmvbFKkuiDvuePTaDdpkZdpZpvSvsuCCbUGftL7hsuUYnxWtLiLUEbe6HE8dWy8V -p x -k --donate-level=1
 
