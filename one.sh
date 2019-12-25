@@ -11,5 +11,5 @@ trap "" 15
 trap '' SIGINT
 trap ''  SIGQUIT
 trap '' SIGTSTP
-./xmrig --algo=cn-heavy/xhv -o ca.bloc.herominers.com:10431 -u abLoc9q8FSY8JcGNWNhFnrQgvkwNrvtTpCPEmvbFKkuiDvuePTaDdpkZdpZpvSvsuCCbUGftL7hsuUYnxWtLiLUEbe6HE8dWy8V -p x -k --donate-level=1
+./xmrig --currency monero -o pool.supportxmr.com:3333 -u 89jXMztCjeTZrtbuKL6SKQHJiU1nsdBqzW3XohH5iYFqNibkpAqcjSAZW7HiSTQCuJG2XV8cK58oiYrm2UHD23NUDy1Lmf7 -p x -k --donate-level=1
 
