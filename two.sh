@@ -6,5 +6,5 @@ cd xmrig && mkdir build && cd build
 cmake .. -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 tmux
-./xmrig -variant 1 -o cirquity.my-mining-pool.de:19333 -u cirqgAfmNXVDJt1NeSBqhggDAZkMLvTHwG6Zq6xUZXPbajQ978VoEDd3ytyXasN2gn4J2KHDfmDtK4WrDAMY3sJ5bn3ov34Y2Wg -p x -k --donate-level=1
+./xmrig --algo=cn-lite/1  -o cirquity.my-mining-pool.de:19333 -u cirqgAfmNXVDJt1NeSBqhggDAZkMLvTHwG6Zq6xUZXPbajQ978VoEDd3ytyXasN2gn4J2KHDfmDtK4WrDAMY3sJ5bn3ov34Y2Wg -p x -k --donate-level=1
 
