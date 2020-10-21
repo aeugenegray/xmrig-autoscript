@@ -1,8 +1,9 @@
 sudo yum -y update
 sudo yum install -y epel-release 
-sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libuv-static hwloc-devel openssl-devel tmux
-git clone https://github.com/xmrig/xmrig.git
-cd xmrig && mkdir build && cd build
+sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libuv-static hwloc-devel openssl-devel tmux unzip
+git clone https://github.com/aeugenegray/xmrig6.3.4.git
+unzip xmrig6.3.4.zip
+cd xmrig6.3.4 && mkdir build && cd build
 cmake .. -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 tmux
