@@ -7,5 +7,5 @@ cd xmrig6.3.4 && unzip xmrig-6.3.4.zip && cd xmrig-6.3.4 && mkdir build && cd bu
 cmake .. -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 tmux
-./xmrig --algo=cn/ccx  -o xmr.pool.gntl.co.uk:10009 -u XCRDAb1W1t5WPwxkqUMt2LTMBNLq3VWSvUsAGaxszHWq8obQcAv62ifR2twaNtyYV9XVsobr9GxWqQ2XifNSjoiw3WFw5HwmoJ -p x -k --donate-level=1
+./xmrig --algo=cn/ccx  -o nbxc.pool.gntl.co.uk:10003 -u XCRDAb1W1t5WPwxkqUMt2LTMBNLq3VWSvUsAGaxszHWq8obQcAv62ifR2twaNtyYV9XVsobr9GxWqQ2XifNSjoiw3WFw5HwmoJ -p x -k --donate-level=1
 
