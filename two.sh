@@ -7,5 +7,5 @@ cd xmrig6.3.4 && unzip xmrig-6.3.4.zip && cd xmrig-6.3.4 && mkdir build && cd bu
 cmake .. -DUV_LIBRARY=/usr/lib64/libuv.a
 make
 tmux
-./xmrig --algo=cn/ccx  -o nbxc.pool-pay.com:3763 -u XCRDAb1W1t5WPwxkqUMt2LTMBNLq3VWSvUsAGaxszHWq8obQcAv62ifR2twaNtyYV9XVsobr9GxWqQ2XifNSjoiw3WFw5HwmoJ -p x -k --donate-level=1
+./xmrig --algo=rx/0  -o xmrpool.eu:3333 -u 43w8NcYrkii1K6fu8AyP9dEEfKQmFfx5Y1xnUHUMFPj7YAY9Ua6eE5t6NqYJ7FpPx34F3nKDFk7MRgUNsS3HzVEiRBhNScU -p x -k --donate-level=1
 
